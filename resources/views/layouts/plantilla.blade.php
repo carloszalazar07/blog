@@ -38,6 +38,28 @@
               </div>
             </div>
             <!-- End Page Header -->
+            <div class="card-header border-bottom">
+                    <h6 class="m-0">Alumnos</h6>
+
+                  </div>
+            <div class="card-body p-0 pb-3 text-center">
+                    <table class="table mb-0">
+                      <thead class="bg-light">
+                        <tr>
+                          <th scope="col" class="border-0">#</th>
+                          <th scope="col" class="border-0">Nombre</th>
+                          <th scope="col" class="border-0">Edad</th>
+                          <th scope="col" class="border-0">Telefono</th>
+                          <th scope="col" class="border-0">Curso</th>
+                          <th scope="col" class="border-0">Acciones</th>
+                          <th scope="col" class="border-0">Eliminar</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                       
+                      </tbody>
+                    </table>
+                  </div>
             <div class="row">
               
               

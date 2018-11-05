@@ -17,6 +17,11 @@
 Route::view('/plantilla', 'layouts.plantilla');
 Route::view('/','main');
 Route::view('/index','index');
-Route::resource('alumnos','AlumnosController');
-Route::resource('cursos','CursosController');
-Route::resource('materias','MateriasController');
+Route::resource('clientes','ClientesController');
+
+// Route::resource('cursos','CursosController');
+// Route::resource('materias','MateriasController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
